@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="UTF-8">
+   <title>Cuestionario satisfacción de producto</title>
+  </head>
+  <body>
+  <h1> Encuesta sobre el producto "X"</h1>
+   <form method="post" action="miservidor.php">
+    <div>
+      <label for=”código postal”>C.P.:</label>
+      <input id=”código postal” type=”number”>
+    </div>
+    <div>
+      <label for=”Nivel de satisfacción con el producto”>Satisfacción con con el producto:</label>       
+      <select id=”nivel satisfacción”>
+         <option value=”1”>1</option>
+         <option value=”2”>2</option>
+         <option value=”3”>3</option>
+         <option value=”4”>4</option>
+         <option value=”5”>5</option>
+      </select>
+   </div>
+   <div>
+      <label for=”e-mail”>Correo electrónico:</label>
+      <input id=”e-mail” type=”text”>
+   </div>
+   <div>
+       <label for=”puntos positivos”>Aspectos positivos del producto:</label>
+       <textarea id=”puntos positivos”></textarea>
+   </div>
+   <div>
+       <label for=”puntos negativos”>Aspectos negativos del producto:</label>
+       <textarea id=”puntos negativos”></textarea>
+   </div>
+   <div>
+       <label for=”accesibilidad”>Accesibilidad:</label>
+       <input name=”accesibilidad” type=”radio” value=”Excel”>Excelente       
+       <input name=”accesibilidad” type=”radio” value=”Bueno”>Bueno
+       <input name=”accesibilidad” type=”radio” value=”Regular”>Regular
+       <input name=”accesibilidad” type=”radio” value=”Pésimo”>Pésimo
+  </div>
+  <div>
+       <label for=”precio">Precio:</label>
+       <input name=”precio” type=”radio” value=”Excel”>Excelente       
+       <input name=”precio” type=”radio” value=”Bueno”>Bueno
+       <input name=”precio” type=”radio” value=”Regular”>Regular
+       <input name=”precio” type=”radio” value=”Pésimo”>Pésimo
+  </div>
+  <div>
+      <label for=”aspecto/presentacíon”>Aspecto/Presentacíon:</label>       
+      <select id=”nivel satisfacción”>
+         <option value=”Excelente”>Excelente</option>
+         <option value=”Bueno”>Bueno</option>
+         <option value=”Regular”>Regular</option>
+         <option value=”Pesimo”>Pesimo</option>
+      </select>
+  </div>
+<input type=”submit” value=”Enviar”>
+</form>
+</body>
+</html>
+    
